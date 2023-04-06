@@ -15,7 +15,7 @@ enum PaymentMethods {
 }
 
 const confirmOrderFormValidationSchema = zod.object({
-    cep: zod.string().min(1, "Informe o CEP"),
+  cep: zod.string().min(1, "Informe o CEP"),
   street: zod.string().min(1, "Informe o Rua"),
   number: zod.string().min(1, "Informe o Número"),
   complement: zod.string(),
