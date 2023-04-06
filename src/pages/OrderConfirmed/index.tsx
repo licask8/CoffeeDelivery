@@ -1,6 +1,6 @@
 import { RegularText, TitleText } from "../../components/Typography";
 import { OrderCompletedContainer, OrderDetailsContainer } from "./styles";
-import IllustrationImg from "../../assets/illustration.svg"
+import IlustationImage from "../../assets/Illustration.svg"
 import { InfoWithIcon } from "../../components/InfoWithIcon";
 import { Clock, CurrencyDollar, MapPin, Money } from "phosphor-react";
 import { useTheme } from "styled-components";
@@ -78,7 +78,7 @@ export function OrderConfirmedPage() {
                    
                 </OrderDetailsContainer>
 
-                <img src={ IllustrationImg} />
+                <img src={ IlustationImage} />
 
             </section>
         </OrderCompletedContainer>
